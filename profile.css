@@ -1,0 +1,139 @@
+
+/*
+github.com/mmdvanazanin
+    date: 15.04.2023 -- 20:43
+*/
+
+*{
+    margin: o;
+    padding: 0;
+   
+}
+body{
+    background-image: url(https://maraqli-sekiller.com/uploads/posts/2019-05/maraqli-sekiller.com_deniz-kenari-092-2.jpg);
+   
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    width: 350px;
+    height: 550px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+   
+}
+.box img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-top: 35px;
+    border:4px solid burlywood;
+    
+}
+.box img:hover{
+    border-color: blueviolet;
+    transition: 1s;
+    transform: scale(1.2,1.2);
+}
+
+.box h2{
+    color:white
+}
+.box h5{
+    font-size: 15px;
+    color: red;
+}
+.box .a{
+    position: absolute;
+    top: 180px;
+}
+.box .b{
+    position: absolute;
+    top: 220px;
+}
+.icons{
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 280px;
+}
+.icons i{
+    color: white;
+    font-size: 35px;
+    
+}
+.contact{
+    width: 200px;
+    height: 45px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 7px;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    
+}
+.contact span{
+    font-size: 20px;
+    color: red;
+}
+
+/*
+github.com/mmdvanazanin
+    date: 15.04.2023 -- 20:43
+*/
+
+.contact a{
+    text-decoration: none;
+    margin-top: 7px;
+}
+.contact span:hover{
+    color: chartreuse;
+    transition: 1s;
+}
+.contact span:visited{
+    color: aqua;
+}
+.contact span:active{
+    color: blue;
+}
+.white{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    top: 450px;
+    border: 1px solid white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+}
+.white table{
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+}
+.white table th{
+    font-size: 30px;
+}
+.white table td{
+    text-align: center;
+}
+
+/*
+github.com/mmdvanazanin
+    date: 15.04.2023 -- 20:43
+*/
